@@ -44,18 +44,18 @@ ZeinthOS is a Modded HyperOS built specifically for **Poco C75 5G** and **Redmi 
 ## Installation Instructions
 > **Note:** Make sure your device has enough battery (>50%).  
 1. **Boot into Fastboot mode**: 
-**fastboot flash recovery recovery.img
-fastboot flash vbmeta vbmeta.img
-fastboot --disable-verity --disable-verification flash vbmeta_system vbmeta_system.img 
-fastboot reboot fastboot
-fastboot flash system system.img
-fastboot flash product product.img
-fastboot flash system_ext system_ext.img
-fastboot flash odm odm.img
-fastboot flash vendor vendor.img
-fastboot flash mi_ext mi_ext.img
-fastboot -w
-fastboot reboot**
+2. fastboot flash recovery recovery.img
+3. fastboot flash vbmeta vbmeta.img
+4. fastboot --disable-verity --disable-verification flash vbmeta_system vbmeta_system.img 
+5. fastboot reboot fastboot
+6. fastboot flash system system.img
+7. fastboot flash product product.img
+8. fastboot flash system_ext system_ext.img
+9. fastboot flash odm odm.img
+10. fastboot flash vendor vendor.img
+11. fastboot flash mi_ext mi_ext.img
+12. fastboot -w
+13. fastboot reboot
 
 # Your Device Will Boot Into HyperOS
 # Thanks...
